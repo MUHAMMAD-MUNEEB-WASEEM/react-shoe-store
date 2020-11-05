@@ -1,0 +1,47 @@
+#product{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+    align-items: center;
+}
+.title{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+}
+.card{
+    color: #03c2fc;
+    min-width: 300px;
+    min-height: 400px;
+    border: 1px solid #03c2fc;
+    overflow: hidden;
+    padding: 10px;
+    box-shadow: 2px 8px 20px  #03c2fc ;
+    margin: 10px;
+    transition: 0.5s linear;
+}
+Link{
+    text-decoration: none;
+}
+/*for title of products*/
+.Typography{
+    text-decoration: none;
+    color: orange;
+}
+.cards-button{
+    border: none;
+    outline: none;
+    background: #03c2fc;
+    color: white;
+    width: 100%;
+    height: 40px;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 15px 0;
+}
