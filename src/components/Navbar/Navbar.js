@@ -35,7 +35,7 @@ class Navbar extends Component {
                         )
                     })}
                 </ul>
-                <Button><Link className={"nav-button"} to="contact">Contact Us</Link></Button>
+                <Button><Link className={"nav-button"} to={MenuItems[3].url}>Contact Us</Link></Button>
             </nav>
         )
     }
