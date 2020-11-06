@@ -4,10 +4,14 @@
     flex-wrap: wrap;
     background-color: black;
     align-items: center;
+    width: 100%;
 }
 
 h3{
     margin-top:10px;
+}
+h1{
+    font-size:30px;
 }
 .topbot{
     padding-top: 100px !important;
@@ -72,4 +76,12 @@ Link{
     color: #ffff !important;
     transition: 250ms;
 
+}
+@media screen and (max-width: 768px){
+    .card{
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        transition: 0.5s linear;
+    }
 }

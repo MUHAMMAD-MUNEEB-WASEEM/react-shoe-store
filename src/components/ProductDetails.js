@@ -56,7 +56,7 @@ export const ProductDetails = () => {
     const {name, img, content, price} = product;
     
     return (
-        <div className={"details"}>
+        <div className="details">
             <img src={img} alt=""/>
             <div className={"box"}>
                 <div className={"row"}>
