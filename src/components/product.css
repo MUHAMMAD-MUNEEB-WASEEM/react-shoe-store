@@ -1,10 +1,19 @@
-#product{
-    width:100%;
+.product{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     background-color: black;
     align-items: center;
+}
+
+h3{
+    margin-top:10px;
+}
+.topbot{
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+    color: black !important;
+    background: black !important;
 }
 .title{
     font-size: 50px;
@@ -24,24 +33,43 @@
     margin: 10px;
     transition: 0.5s linear;
 }
+.cardsimg{
+    max-width: 300px;
+    width: 100%;
+    height: 100%;
+    max-height: 300px;
+    display: block;
+    object-fit: cover;
+}
 Link{
     text-decoration: none;
 }
 /*for title of products*/
 .Typography{
     text-decoration: none;
-    color: orange;
+    color: #bb41d0;
+    font-weight: bold;
 }
 .cards-button{
     border: none;
     outline: none;
-    background: #03c2fc;
+    background-color: #bb41d0;
+    background-image: linear-gradient(43deg, #bb41d0 0%, #C850C0 46%, #FFCC70 100%);  
+    border: 1px solid #bb41d0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
     color: white;
     width: 100%;
     height: 40px;
     display: block;
     cursor: pointer;
-    text-transform: uppercase;
     letter-spacing: 2px;
     margin: 15px 0;
+}
+.cards-button:hover{
+    transition: all 0.3s ease-out;
+    background: black;
+    color: #ffff !important;
+    transition: 250ms;
+
 }

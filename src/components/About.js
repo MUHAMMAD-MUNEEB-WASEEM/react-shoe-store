@@ -5,7 +5,7 @@ import Footer from './Footer/Footer';
 export const About = () => {
   return (
   <>
-    <h1 className='contact'>About Us</h1>
+    <h1 className={'about'}>About Us</h1>
     <Footer />
     </>
   )

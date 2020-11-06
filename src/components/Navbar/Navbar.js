@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react'
 import { Button } from '../Button';
 
@@ -14,10 +15,10 @@ class Navbar extends Component {
 
     render () {
         return (
-            <nav className="NavbarItems">
-                <h1 className="navbar-logo">React <i className="fab fa-react"></i></h1>
+            <nav className={"NavbarItems"}>
+                <h1 className={"navbar-logo"}>React<i className={"fab fa-react"}></i></h1>
               
-                <div className="menu-icon" onClick={this.handleClick}>
+                <div className={"menu-icon"} onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times': 'fas fa-bars'}></i>
                     
                  </div>
@@ -33,7 +34,7 @@ class Navbar extends Component {
                         )
                     })}
                 </ul>
-                <Button><a className="nav-button" href="contact">Contact Us</a></Button>
+                <Button><a className={"nav-button"} href="contact">Contact Us</a></Button>
             </nav>
         )
     }

@@ -1,16 +1,19 @@
 .NavbarItems{
-    background: linear-gradient(90deg, rgb(110, 95, 254)0%, rgba(73, 63, 252, 1)100%);
+    background: black;
     height: 80px;    
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
 }
-
+.Link{
+    color: white !important;
+    text-decoration: none !important;
+}
 .navbar-logo{
-    color:#ffff;
+    color: #ffff;
     justify-self: start;
-    margin-left: 20px;
+    margin-left: 10px;
     cursor: pointer;
 
 }
@@ -35,11 +38,14 @@
     padding: 0.5rem 1rem;
 }
 .nav-links:hover{
-    background-color: #6d76f7;
+    background-color: #bb41d0;
     border-radius: 4px;
     transition: all 0.2s ease-out;
 }
 .fa-bars{
+    color: #fff;
+}
+.fa-times{
     color: #fff;
 }
 
@@ -54,7 +60,10 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
     font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
 }
+
 @media screen and (max-width: 960px) {
     .NavbarItems {
         position:relative
@@ -71,7 +80,7 @@
         transition: all 0.5s ease;
     }
     .nav-menu.active{
-        background: #6568f4;
+        background: black;
         left: 0;
         opacity:1;
         transition: all 0.5s ease;
@@ -82,9 +91,10 @@
         padding: 2rem;
         width: 100%;
         display:table;
+        color: white
     }
     .nav-links:hover{
-        background-color: #7577fa;
+        background-color: #bb41d0;
         border-radius:0;
     }
     .navbar-logo{
@@ -109,16 +119,18 @@
         margin: 2rem auto;
         border-radius: 4px;
         width: 80%;
-        background: #4ad9e4;
+        background-color: #bb41d0;
+        background-image: linear-gradient(43deg, #bb41d0 0%, #C850C0 46%, #FFCC70 100%);
         text-decoration: none;
         color: #fff;
         font-size: 1.5rem;
     }
 
     .nav-links-mobile:hover {
-        background: #fff;
-        color: #6568F4;
+        background: black;
+        color: #ffff;
         transition: 250ms;
+        border: 1px solid #bb41d0;
     }
 
     Button {

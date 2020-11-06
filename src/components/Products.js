@@ -8,16 +8,16 @@ import Footer from './Footer/Footer';
 
 import './product.css';
 
+import cx from 'classnames';
+
 export const Products = () => {
 
 
     return (
-        <>
-            <div id="product">
-                <h1 className="title">Products page</h1>
-                <Outlet />
-            </div>
-            <Footer />
+        <>    
+                <h1 className={cx("products", "overlay")}>Products</h1>
+                <Outlet className={"topbot"}/>
+                <Footer />
         </>
     )
 }

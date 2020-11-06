@@ -7,7 +7,6 @@ import greymen from "./images/grey.jpg"
 import grey from "./images/4.jpg";
 import darkblue from "./images/5.jpg";
 import pink from "./images/pink shoes.jpeg";
-import black from "./images/1.jpg";
 import red from "./images/2.jpg";
 import white from "./images/3.jpg";
 
@@ -18,7 +17,7 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-import Button from '@material-ui/core/Button';
+//import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
 import cx from 'classnames';
@@ -41,32 +40,44 @@ export const ProductIndex = () => {
     const shoes = {
         "grey-simple-men-shoe": {
             name: "Grey Simple Men Shoe",
-            img: greymen
+            img: greymen,
+            content: "The Nike React Miler gives you trusted stability for miles with athlete-informed performance. Made for dependability on your long runs, its intuitive design offers a locked-in fit and a durable feel. Colour Shown: Black/Laser Crimson/Oil Green/White",
+            price: 1970,
         },
         "grey-men-shoe": {
             name: "Grey Men Shoe",
-            img: grey
+            img: grey,
+            content: "The Nike React Miler gives you trusted stability for miles with athlete-informed performance. Made for dependability on your long runs, its intuitive design offers a locked-in fit and a durable feel. Colour Shown: Black/Laser Crimson/Oil Green/White",
+            price: 1970,
         },
         "dark-blue-leather-sneakers": {
-            name: "Blue-Leather Sneakers",
-            img: darkblue
+            name: "Dark Blue-Leather Sneakers",
+            img: darkblue,
+            content: "The Nike React Miler gives you trusted stability for miles with athlete-informed performance. Made for dependability on your long runs, its intuitive design offers a locked-in fit and a durable feel. Colour Shown: Black/Laser Crimson/Oil Green/White",
+            price: 1970,
         },
         "pink-sneaker": {
             name: "Pink Sneaker",
-            img: pink
+            img: pink,
+            content: "The Nike React Miler gives you trusted stability for miles with athlete-informed performance. Made for dependability on your long runs, its intuitive design offers a locked-in fit and a durable feel. Colour Shown: Black/Laser Crimson/Oil Green/White",
+            price: 1970,
         },
         "red-sneaker": {
             name: "Red Sneaker",
-            img: red
+            img: red,
+            content: "The Nike React Miler gives you trusted stability for miles with athlete-informed performance. Made for dependability on your long runs, its intuitive design offers a locked-in fit and a durable feel. Colour Shown: Black/Laser Crimson/Oil Green/White",
+            price: 1970,
         },
         "white-sneaker": {
             name: "White Sneaker",
-            img: white
+            img: white,
+            content: "The Nike React Miler gives you trusted stability for miles with athlete-informed performance. Made for dependability on your long runs, its intuitive design offers a locked-in fit and a durable feel. Colour Shown: Black/Laser Crimson/Oil Green/White",
+            price: 1970,
         },
     };
     return (
-        <div id='product'>
-                {Object.entries(shoes).map(([productId, {name, img}]) =>
+        <div className={cx('product', 'topbot')}>
+                {Object.entries(shoes).map(([productId, {name, img, price}]) =>
                     (
                                 <Card key={productId} className={cx(classes.root, "card")}>
                                     
@@ -79,20 +90,18 @@ export const ProductIndex = () => {
                                             />
                                             <CardContent>
                                                 <Typography gutterBottom variant="h5" component="h2">
-                                                    <Link className="Typography" to={productId}>{name}</Link> 
+                                                    <Link className={"Typography"} to={productId}>{name}</Link> 
                                                 </Typography>
                                                 <Typography variant="body2" color="textSecondary" component="p">
                                                     Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
                                                     across all continents except Antarctica
                                                 </Typography>
+                                                <h3>${price}</h3>
                                             </CardContent>
                                     </CardActionArea>
                                     <CardActions>
-                                        <button className="cards-button">
-                                        Share
-                                        </button>
-                                        <button className="cards-button">
-                                        Learn More
+                                        <button className={"cards-button"}>
+                                        View Product
                                         </button>
                                     </CardActions>
                                     </Card>
