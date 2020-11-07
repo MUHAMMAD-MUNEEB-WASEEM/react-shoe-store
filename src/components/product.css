@@ -79,9 +79,8 @@ Link{
 }
 @media screen and (max-width: 768px){
     .card{
-        width: 100%;
-        padding: 10px;
-        margin: 10px 0;
+        width: 70%;
         transition: 0.5s linear;
+        align-items: center;
     }
 }
