@@ -42,37 +42,37 @@ export const ProductIndex = () => {
             name: "Grey Simple Men Shoe",
             img: greymen,
             content: "The Nike React Miler gives you trusted stability for miles with athlete-informed performance. Made for dependability on your long runs, its intuitive design offers a locked-in fit and a durable feel. Colour Shown: Black/Laser Crimson/Oil Green/White",
-            price: 1970,
+            price: 300,
         },
         "grey-men-shoe": {
             name: "Grey Men Shoe",
             img: grey,
             content: "The Nike React Miler gives you trusted stability for miles with athlete-informed performance. Made for dependability on your long runs, its intuitive design offers a locked-in fit and a durable feel. Colour Shown: Black/Laser Crimson/Oil Green/White",
-            price: 1970,
+            price: 500,
         },
         "dark-blue-leather-sneakers": {
             name: "Blue-Leather Sneakers",
             img: darkblue,
             content: "The Nike React Miler gives you trusted stability for miles with athlete-informed performance. Made for dependability on your long runs, its intuitive design offers a locked-in fit and a durable feel. Colour Shown: Black/Laser Crimson/Oil Green/White",
-            price: 1970,
+            price: 650,
         },
         "pink-sneaker": {
             name: "Pink Sneaker",
             img: pink,
             content: "The Nike React Miler gives you trusted stability for miles with athlete-informed performance. Made for dependability on your long runs, its intuitive design offers a locked-in fit and a durable feel. Colour Shown: Black/Laser Crimson/Oil Green/White",
-            price: 1970,
+            price: 600,
         },
         "red-sneaker": {
             name: "Red Sneaker",
             img: red,
             content: "The Nike React Miler gives you trusted stability for miles with athlete-informed performance. Made for dependability on your long runs, its intuitive design offers a locked-in fit and a durable feel. Colour Shown: Black/Laser Crimson/Oil Green/White",
-            price: 1970,
+            price: 800,
         },
         "white-sneaker": {
             name: "White Sneaker",
             img: white,
             content: "The Nike React Miler gives you trusted stability for miles with athlete-informed performance. Made for dependability on your long runs, its intuitive design offers a locked-in fit and a durable feel. Colour Shown: Black/Laser Crimson/Oil Green/White",
-            price: 1970,
+            price: 1000,
         },
     };
     return (

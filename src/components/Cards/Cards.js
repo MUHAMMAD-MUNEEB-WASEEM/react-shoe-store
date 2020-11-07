@@ -11,19 +11,19 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='./images/2.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+              text='Be ready to become the winner of the show'
               label='Mystery'
               path='/products'
             />
             <CardItem
               src='./images/1.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
+              text='Experience Football on Top of the Mountains'
               label='Adventure'
               path='/products'
             />
             <CardItem
               src='./images/3.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
+              text='Make your own path that discovers your later journey'
               label='Adrenaline'
               path='/products'
             />
