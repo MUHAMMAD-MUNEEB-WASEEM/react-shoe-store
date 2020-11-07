@@ -51,7 +51,7 @@ export const ProductIndex = () => {
             price: 1970,
         },
         "dark-blue-leather-sneakers": {
-            name: "Dark Blue-Leather Sneakers",
+            name: "Blue-Leather Sneakers",
             img: darkblue,
             content: "The Nike React Miler gives you trusted stability for miles with athlete-informed performance. Made for dependability on your long runs, its intuitive design offers a locked-in fit and a durable feel. Colour Shown: Black/Laser Crimson/Oil Green/White",
             price: 1970,
@@ -79,32 +79,33 @@ export const ProductIndex = () => {
         <div className={cx('product', 'topbot')}>
                 {Object.entries(shoes).map(([productId, {name, img, price}]) =>
                     (
-                                <Card key={productId} className={cx(classes.root, "card")}>
+                        <Card key={productId} className={cx(classes.root, "card")}>
                                     
-                                    <CardActionArea>
+                            <CardActionArea>
                                     
-                                            <CardMedia
-                                            className={classes.media}
-                                            image={img}
-                                            title={name}
-                                            />
-                                            <CardContent>
-                                                <Typography gutterBottom variant="h5" component="h2">
-                                                    <Link className={"Typography"} to={productId}>{name}</Link> 
-                                                </Typography>
-                                                <Typography variant="body2" color="textSecondary" component="p">
-                                                    Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                                                    across all continents except Antarctica
+                                <CardMedia
+                                     className={classes.media}
+                                    image={img}
+                                    title={name}
+                                />
+                                 <CardContent>
+                                    <Typography gutterBottom variant="h5" component="h2">
+                                        <Link className={"Typography"} to={productId}>{name}</Link> 
+                                        </Typography>
+                                        <Typography variant="body2" color="textSecondary" component="p">
+                                            Get yourself ready to look smart with this simple and stylish lookiing shoes
                                                 </Typography>
                                                 <h3>${price}</h3>
-                                            </CardContent>
+                                 </CardContent>
                                     </CardActionArea>
                                     <CardActions>
+                                    <Link to={productId} className={"Link"}>
                                         <button className={"cards-button"}>
                                         View Product
                                         </button>
-                                    </CardActions>
-                                    </Card>
+                                    </Link>
+                            </CardActions>
+                        </Card>
                          
                     ) 
                 )}

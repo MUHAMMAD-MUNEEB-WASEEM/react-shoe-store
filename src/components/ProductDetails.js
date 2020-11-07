@@ -27,7 +27,7 @@ export const ProductDetails = () => {
             price: 1970,
         },
         "dark-blue-leather-sneakers": {
-            name: "Dark Blue-Leather Sneakers",
+            name: "Blue-Leather Sneakers",
             img: darkblue,
             content: "The Nike React Miler gives you trusted stability for miles with athlete-informed performance. Made for dependability on your long runs, its intuitive design offers a locked-in fit and a durable feel. Colour Shown: Black/Laser Crimson/Oil Green/White",
             price: 1970,
