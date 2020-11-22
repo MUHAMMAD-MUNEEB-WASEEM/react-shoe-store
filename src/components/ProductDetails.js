@@ -65,6 +65,10 @@ export const ProductDetails = () => {
                     <span>${price}</span>
                 </div>
                 <p>{content}</p>
+                <button className={"cards-button"}>
+                    Add to Cart
+                </button>
+
             </div>
         </div>
             

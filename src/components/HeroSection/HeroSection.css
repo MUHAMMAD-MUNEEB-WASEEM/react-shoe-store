@@ -15,7 +15,12 @@
     color: #fff;
     font-size: 100px;
     margin-top: -100px;
-  }
+    text-shadow: -1px 1px 0 #eb8b06,
+    1px 1px 0 #eb8b06,
+   1px -1px 0 #eb8b06,
+  -1px -1px 0 #eb8b06;
+}
+
   
   .hero-container > p {
     margin-top: 8px;
@@ -23,6 +28,10 @@
     font-size: 32px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
+    text-shadow: -1px 1px 0 #eb8b06,
+    1px 1px 0 #eb8b06,
+     1px -1px 0 #eb8b06,
+    -1px -1px 0 #eb8b06;
   }
   
   .hero-btns {

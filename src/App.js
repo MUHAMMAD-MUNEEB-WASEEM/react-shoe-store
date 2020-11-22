@@ -9,7 +9,7 @@ import { Products } from './components/Products';
 import Home from './components/Home';
 import { ProductIndex } from './components/ProductIndex';
 import { About } from './components/About';
-import { Contact } from './components/Contact';
+import { Contact } from './components/Contact/Contact';
 
 
 

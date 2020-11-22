@@ -22,6 +22,8 @@ import Typography from '@material-ui/core/Typography';
 
 import cx from 'classnames';
 
+import React from 'react';
+
 //importing
 
 const useStyles = makeStyles({
@@ -31,6 +33,9 @@ const useStyles = makeStyles({
     media: {
       height: 140,
     },
+    image:{
+        height: 250,
+    }
   });
 
 export const ProductIndex = () => {
@@ -84,7 +89,7 @@ export const ProductIndex = () => {
                             <CardActionArea>
                                     
                                 <CardMedia
-                                     className={classes.media}
+                                     className={cx(classes.media, classes.image)}
                                     image={img}
                                     title={name}
                                 />
